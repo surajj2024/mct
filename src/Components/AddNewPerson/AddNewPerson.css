@@ -1,0 +1,102 @@
+.AddNewPerson {
+  width: 90%;
+  height: 80vh;
+  border: 2px solid #6c757d;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 20px auto;
+  position: relative;
+}
+
+.page-title {
+  background-color: #343a40;
+  color: #f8f9fa;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 1.2rem;
+  padding: 10px;
+  border-radius: 8px 8px 0 0;
+}
+
+table {
+  width: 100%;
+  margin: 20px 0;
+  border-collapse: collapse;
+}
+
+thead {
+  background-color: #343a40;
+  color: #f8f9fa;
+}
+
+tr {
+  height: 40px;
+  border-bottom: 1px solid #dee2e6;
+}
+
+td {
+  text-align: left;
+  padding: 8px 12px;
+}
+
+.Add-btn {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  width: 120px;
+  height: 40px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.Add-btn:hover {
+  background-color: #218838;
+}
+
+.row-btns {
+  border: none;
+  background-color: transparent;
+  color: #007bff;
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.row-btns:hover {
+  text-decoration: underline;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: space-between;
+  width: 100%;
+  margin: 20px 0;
+}
+
+.form-container {
+  background-color: #343a40;
+  color: white;
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form>input {
+  flex: 1 1 30%;
+  padding: 10px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+}

@@ -1,0 +1,33 @@
+.navbar {
+  background-color: #343a40;
+  height: 60px;
+  color: #f8f9fa;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 100%;
+}
+
+.navigators {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.navigator-btn {
+  border: 2px solid #f8f9fa;
+  background-color: #28a745;
+  color: #ffffff;
+  padding: 8px 16px;
+  border-radius: 25px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.navigator-btn:hover {
+  background-color: #218838;
+  color: #e2e6ea;
+}
